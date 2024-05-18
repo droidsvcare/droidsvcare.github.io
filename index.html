@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anandu's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .intro, .skills, .projects, .contact {
+            padding: 2rem 0;
+        }
+        .intro h1 {
+            margin: 0;
+            padding-bottom: 1rem;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            background: #f4f4f4;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-left: 5px solid #333;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+        }
+        .contact form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Anandu's Portfolio</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <h1>About Me</h1>
+            <p>Hello! I'm Anandu, an MBA student with a passion for business strategy, finance, and project management. Welcome to my portfolio!</p>
+        </section>
+        <section class="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>Business Strategy</li>
+                <li>Financial Analysis</li>
+                <li>Project Management</li>
+                <li>Marketing</li>
+                <li>Data Analysis</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h1>Projects</h1>
+            <ul>
+                <li>
+                    <h2>Business Strategy Analysis</h2>
+                    <p>Conducted a comprehensive analysis of XYZ company’s market strategy. <a href="#">View project</a></p>
+                </li>
+                <li>
+                    <h2>Financial Modeling</h2>
+                    <p>Developed financial models for a startup to project revenue growth and expenses. <a href="#">View project</a></p>
+                </li>
+                <li>
+                    <h2>Marketing Campaign</h2>
+                    <p>Led a successful marketing campaign for a new product launch. <a href="#">View project</a></p>
+                </li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <form action="mailto:anandu@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
